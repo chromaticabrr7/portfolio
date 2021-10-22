@@ -108,7 +108,7 @@ a:not(.disable):hover {
 	font-size: 14px;
 }
 
-.heading-abbr-green {
+.heading {
 	position: static;
 	display: block;
 	background-color: black;
@@ -116,42 +116,17 @@ a:not(.disable):hover {
 	font-size: 18px;
 	font-weight: 500;
 	mix-blend-mode: lighten;
-	color: rgba(0, 255, 0, 1.0);
-}
-
-.heading-abbr-red {
-	position: static;
-	display: block;
-	background-color: black;
-	font-family: 'Roboto Mono', sans-serif;
-	font-size: 18px;
-	font-weight: 500;
-	mix-blend-mode: lighten;
-	color: rgba(255, 0, 0, 1.0);
-	margin-top: -39px;
-	margin-left: 2px;
-}
-
-.heading-abbr-blue {
-	position: static;
-	background-color: black;
-	font-family: 'Roboto Mono', sans-serif;
-	font-size: 18px;
-	font-weight: 500;
-	mix-blend-mode: lighten;
-	color: rgba(0, 0, 255, 1.0);
-	margin-top: -38px;
-	margin-left: -2px;
+	color: rgba(255, 255, 255, 1);
 	margin-bottom: 40px;
 }
 
-.heading-sub-green {
+.heading-sub {
 	font-family: 'Roboto Mono', sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 500;
 	mix-blend-mode: lighten;
-	color: rgba(0, 255, 0, 1.0);
+	color: rgba(255, 255, 255, 1);
 	margin-left: -1px;
 	margin-bottom: 40px;
 }
