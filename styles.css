@@ -1,9 +1,12 @@
 a {
+	font-family: 'Roboto Mono', sans-serif;
 	text-decoration: none;
 	color: #fff;
 	border-radius: 3px;
 	padding-left: 5px;
 	padding-right: 5px;
+	cursor: pointer;
+	cursor: hand;
 	-o-transition:.2s;
  	-ms-transition:.2s;
  	-moz-transition:.2s;
@@ -11,6 +14,12 @@ a {
  	/* ...and now for the proper property */
  	transition:.2s;
  	transition-timing-function: ease-in;
+}
+
+a:not(.disable):hover {
+    background-color: #fff;
+	color: #000;
+	padding-bottom: 1px;
 }
 
 header {
@@ -60,12 +69,6 @@ body {
 	color: #fff;
 }
 
-a:not(.disable):hover {
-    background-color: #fff;
-	color: #000;
-	padding-bottom: 1px;
-}
-
 .coming-soon {
 	display: inline-block;
 	background-color: white;
@@ -74,6 +77,15 @@ a:not(.disable):hover {
 	padding-right: 5px;
 	padding-bottom: 1px;
 	border-radius: 3px;
+}
+
+.view-direct {
+	font-size: 14px;
+	font-weight: 500;
+	font-style: italic;
+	text-align: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .container {
@@ -160,6 +172,11 @@ a:not(.disable):hover {
 	margin-bottom: 40px;
 }
 
+.project-block {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	margin-bottom: 20px;
+}
+
 .project-heading {
 	font-family: 'Roboto Mono', sans-serif;
 	font-weight: 500px;
@@ -181,29 +198,30 @@ a:not(.disable):hover {
 	font-size: 14px;
 }
 
+.post-script {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	width: 100%;
+	margin-bottom: 100px;
+}
+
 .social {
-	float: left;
+	align-items: left;
 	padding: 0px;
 	margin: 0px;
 }
 
 .icons img {
-	display: inline-block;
 	max-width: 20px;
 	height: auto;
-}
-
-.post-script {
-	height: 100px;
-	width: 100%;
-	margin-bottom: 100px;
 }
 
 .post-script-message {
 	font-family: 'Roboto Mono', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	text-align: right;
 }
 
 .fade-out {
