@@ -1,5 +1,8 @@
-a {
+html {
 	font-family: 'Roboto Mono', sans-serif;
+}
+
+a {
 	text-decoration: none;
 	color: #fff;
 	border-radius: 3px;
@@ -23,7 +26,6 @@ a:not(.disable):hover {
 }
 
 header {
-	font-family: 'Roboto Mono', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	position: relative;
@@ -114,22 +116,25 @@ body {
 
 .intro-paragraph {
 	padding-bottom: 20px;
-	font-family: 'Roboto Mono', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 }
 
 .current-exploit-paragraph {
-	font-family: 'Roboto Mono', sans-serif;
 	font-style: italic;
 	font-size: 14px;
+}
+
+.resume {
+	margin-top: 30px;
+	font-size: 14px;
+	font-weight: 500;
 }
 
 .heading {
 	position: static;
 	display: block;
 	background-color: black;
-	font-family: 'Roboto Mono', sans-serif;
 	font-size: 18px;
 	font-weight: 500;
 	mix-blend-mode: lighten;
@@ -138,7 +143,6 @@ body {
 }
 
 .heading-sub {
-	font-family: 'Roboto Mono', sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 500;
@@ -148,51 +152,24 @@ body {
 	margin-bottom: 40px;
 }
 
-.heading-sub-red {
-	font-family: 'Roboto Mono', sans-serif;
-	font-size: 18px;
-	line-height: 24px;
-	font-weight: 500;
-	mix-blend-mode: lighten;
-	color: rgba(255, 0, 0, 1.0);
-	margin-top: -64px;
-	margin-left: 1px;
-	margin-bottom: 40px;
-}
-
-.heading-sub-blue {
-	font-family: 'Roboto Mono', sans-serif;
-	font-size: 18px;
-	line-height: 24px;
-	font-weight: 500;
-	mix-blend-mode: lighten;
-	color: rgba(0, 0, 255, 1.0);
-	margin-top: -64px;
-	margin-left: -3px;
-	margin-bottom: 40px;
-}
-
 .project-block {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	margin-bottom: 20px;
 }
 
 .project-heading {
-	font-family: 'Roboto Mono', sans-serif;
 	font-weight: 500px;
 	font-size: 14px;
 }
 
 .project-description {
 	margin-left: 30px;
-	font-family: 'Roboto Mono', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
 }
 
 .project-role {
 	margin-left: 30px;
-	font-family: 'Roboto Mono', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 300;
 	font-size: 14px;
@@ -219,7 +196,6 @@ body {
 }
 
 .post-script-message {
-	font-family: 'Roboto Mono', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 }
